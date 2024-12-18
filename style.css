@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body, html {
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav {
+    color: white;
+    z-index: 2;
+    position: relative;
+    padding: 4rem, 8rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 60px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+.title {
+    color: white;
+    z-index: 2;
+    position: absolute;
+    font-size: 3rem;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -25%);
+    text-align: center;
+}
+

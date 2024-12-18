@@ -1,10 +1,6 @@
 const canvas = document.getElementById('canvas')
 const ctx = canvas.getContext('2d')
 
-
-const button = document.querySelector('button')
-console.log(button)
-
 canvas.width = innerWidth
 canvas.height = innerHeight
 
